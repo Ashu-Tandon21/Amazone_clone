@@ -1,0 +1,684 @@
+*{
+    margin:0;
+    padding:0;
+    border: none;
+    display: cover;
+    text-decoration: none;
+    
+}
+
+ .navigation{
+    background-color: black;
+    height: 90px;
+   
+    display:flex;
+    justify-content: flex-start;
+    display:cover;
+ }    
+/* @keyframes bordering {
+    form{border: none;}
+    to{border: 1px solid whitesmoke;}
+} */
+  .logo:hover{
+    border: 1px solid whitesmoke;
+
+  }  
+    
+    
+
+
+img{
+    height: 100%;
+    width: 190px;
+    border-radius: 0;
+   
+}
+.id{
+    font-size:  12px;
+    color: whitesmoke;
+    padding-top: 2px;
+    display: block;
+    border: 5px solid black;
+    
+}
+#asd{
+    margin-left: 20px;
+}
+ .delivery{
+    height: 75px;
+    width: 100px;
+    font-size: medium;
+    color: whitesmoke;
+    margin-left: 20px;
+    padding-top: 10px;
+    display: inline-block;
+} 
+
+#india{
+    padding-top: 5px;
+    padding-left:5px;
+}
+
+.delivery:hover{
+    border: 1px solid whitesmoke;
+}
+
+#scroll{
+    height: 50px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: beige;
+    font-size: larger;
+}
+#scroll:hover{
+    border: 4px solid #F2941B;
+}
+
+#search{
+    height: 50px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 0.5px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+.icon{
+    height: 48px;
+    width: 45px;
+    margin-top: 18px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #F2941B;
+    padding-top: 5px;
+    padding-left: 2px;
+    display:flex
+    
+    
+}
+
+.icon:hover{
+    background-color: #c2791a;
+
+}
+#sdf{
+    padding-top: 19px;
+    padding-left: 8px;
+    justify-content:center;
+    align-items:center;
+}
+
+.account{
+    display : inline-block;
+    height: 67px;
+    width: 200px;
+    padding-top: 20px;
+    
+
+}
+
+.home{
+    font-size:  size 10px;
+    color: whitesmoke;
+    margin-left: 40px;
+}
+
+.list{
+    font-size: 16px;
+   
+    color: whitesmoke;
+    margin-left: 40px;
+}
+
+.account:hover{
+  border:   1px solid whitesmoke;
+  border-radius: 3px;
+}
+
+.order{
+    display : inline-block;
+    height: 67px;
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.return{
+    font-size:  15px;
+    color: whitesmoke;
+}
+
+.orders{
+    font-size :16px;
+    color: whitesmoke;
+}
+
+.order:hover{
+    border:   1px solid whitesmoke;
+    border-radius: 3px;
+  
+  }
+
+  .cart{
+    display : inline-block;
+    height: 60px;
+    width: 100px;
+    padding-top:30px;
+    padding-left:40px;
+    margin-left: 20px;
+
+    
+  }
+  .carts{
+    font-size:  16px;
+    color: whitesmoke;
+    padding-left: 50px;
+  }
+  .cart:hover{
+    border:   1px solid whitesmoke;
+    border-radius: 3px;
+  }
+
+
+  .lower-nav{
+    height: 45px;
+    background-color: #2D3645;
+    display: flex;
+
+  }
+
+  .menu{
+    width: 80px;
+    margin-left: 20px;
+    padding-top: 11px;
+    display:inline-block;
+  }
+
+  #all{
+    font-size : 23px;
+    color:whitesmoke;
+    display:inline-block;
+    padding-left: 10px;
+  }
+
+  .menu:hover{
+    border: 1px solid whitesmoke;
+  }
+
+.today{
+    color:whitesmoke;
+    margin-left: 10px;
+    font-size : 23px;
+    display: inline-block;
+    padding-top:11px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.today:hover{
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+
+}
+
+  .customer{
+    color: whitesmoke;
+    font-size : 23px;
+    padding-top: 11px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .customer:hover{
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+  }
+
+  .register{
+    color: whitesmoke;
+    font-size : 23px;
+    padding-top: 11px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .register:hover{
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+  }
+
+  .gift{
+    color: whitesmoke;
+    font-size : 23px;
+    padding-top: 11px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  .gift:hover{
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+  }
+
+  .Sell{
+    color: whitesmoke;
+    font-size : 23px;
+    padding-top: 11px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    display:inline-block;
+  }
+
+  .Sell:hover{
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+  }
+
+  .shop{
+    color: whitesmoke;
+    font-size : 23px;
+    margin-right: 20px ;
+    padding-top: 11px;
+    margin-left: 950px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-right: 10px;
+    display:flex;
+    flex-direction: row-reverse;
+    align-self: flex-start;
+  }
+
+  .shop:hover{
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+  }
+
+  /* baground image */
+  .main{
+    height: 2000px;
+    width:100%;
+    background-image: url(bgimg2.jpg);
+    padding-right: 20px;
+    transform: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: normal;
+    
+  }
+
+  .box1{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 2cm;
+    margin-top: 500px;
+    
+    padding:50px ;
+  }
+
+  .box1info{
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+  .box1bg{
+    margin-top: 20px;
+    height: 400px ;
+    width:300 ;
+    background-image: url(BOX1.jpg);
+    border: 0.5px solid black;
+    background-size: cover;
+  }
+  .box1bg:hover{
+    box-shadow: 2px 2px 10px #54565a;
+  }
+
+  .box2{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 2cm;
+    margin-top: 500px;
+    
+    padding:50px ;
+  }
+  .box2info{
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+  .box2bg{
+    margin-top: 20px;
+    height: 400px ;
+    width:300 ;
+    background-image: url(BOX6.jpg);
+    border: 0.5px solid black;
+    background-size: cover;
+  }
+  .box2bg:hover{
+    box-shadow: 2px 2px 10px #54565a;
+  }
+
+  .box3{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 2cm;
+    margin-top: 500px;
+    
+    padding:50px ;
+  }
+  .box3info{
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+  .box3bg{
+    margin-top: 20px;
+    height: 400px ;
+    width:300 ;
+    background-image: url(BOX7.jpg);
+    border: 0.5px solid black;
+    background-size: cover;
+  }
+  .box3bg:hover{
+    box-shadow: 2px 2px 10px #54565a;
+  }
+
+  .box4{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 2cm;
+    margin-top: 500px;
+    margin-top: 70px;
+    padding:50px ;
+  }
+  .box4info{
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+  .box4bg{
+    margin-top: 20px;
+    height: 400px ;
+    width:300 ;
+    background-image: url(BOX.jpg);
+    border: 0.5px solid black;
+    background-size: cover;
+  }
+  .box4bg:hover{
+    box-shadow: 2px 2px 10px #54565a;
+  }
+
+  .box5{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 2cm;
+    margin-top: 500px;
+    margin-top: 70px;
+    padding:50px ;
+  }
+  .box5info{
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+  .box5bg{
+    margin-top: 20px;
+    height: 400px ;
+    width:300 ;
+    background-image: url(BOX2.jpg);
+    border: 0.5px solid black;
+    background-size: cover;
+  }
+  .box5bg:hover{
+    box-shadow: 2px 2px 10px #54565a;
+  }
+
+  .box6{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 2cm;
+    margin-top: 500px;
+    margin-top: 70px;
+    padding:50px ;
+  }
+  .box6info{
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+  .box6bg{
+    margin-top: 20px;
+    height: 400px ;
+    width:300 ;
+    background-image: url(BOX5.jpg);
+    background-size: contain;
+    border: 0.5px solid black;
+    background-size: cover;
+  }
+  .box6bg:hover{
+    box-shadow: 2px 2px 10px #54565a;
+  }
+
+  .box7{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 2cm;
+    margin-top: 500px;
+    margin-top: 70px;
+    padding:50px ;
+  }
+  .box7info{
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+  .box7bg{
+    margin-top: 20px;
+    height: 400px ;
+    width:300 ;
+    background-image: url(BOX11.jpg);
+    border: 0.5px solid black;
+    background-size: cover;
+  }
+  .box7bg:hover{
+    box-shadow: 2px 2px 10px #54565a;
+  }
+
+  .box8{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 2cm;
+    margin-top: 500px;
+    margin-top: 70px;
+    padding:50px ;
+  }
+  .box8info{
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+  .box8bg{
+    margin-top: 20px;
+    height: 400px ;
+    width:300 ;
+    background-image: url(BOX4.jpg);
+    display: cover;
+    border: 0.5px solid black;
+    background-size:cover
+  }
+  .box8bg:hover{
+    box-shadow: 2px 2px 10px #54565a;
+  }
+  .box9{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 2cm;
+    margin-top: 500px;
+    margin-top: 70px;
+    padding:50px ;
+  }
+  .box9info{
+    font-weight: bolder;
+    font-size: 50px;
+  }
+
+  .box9bg{
+    margin-top: 20px;
+    height: 400px ;
+    width:300 ;
+    background-image: url(BOX8.jpg);
+    background-size: cover;
+    border: 0.5px solid black;
+  }
+  .box9bg:hover{
+    box-shadow: 2px 2px 10px #54565a;
+  }
+
+
+  .sign{
+    height: 150px;
+    background-color: white; 
+    margin-top: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signin{
+    border: 0.1px solid #afb6c5;
+    width:100%;
+  }
+
+.recommand{
+    font-size: 30px;
+    color: black;
+    align-self: center;
+    margin-left: 700px;
+}
+.bn3637 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+    margin-left: 830px;
+  }
+  
+  .bn37 {
+    border-color: transparent;
+    background-color: #F2941B;
+    color: #000;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+    
+  .bn37:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+  }
+
+  .new{
+    font-size: 29px;
+    margin-left: 700px;
+  }
+
+
+  
+
+  .end{
+    width: 100%;
+    height: 700px;
+    background-color: #0e1e44;
+    display: flex;
+  }
+  .back{
+    height: 50px;
+    
+    background-color: #43598bb2 ;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    padding-left: 870px;
+    padding-top: 15px;
+  }
+
+  .boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .b1{
+    height: 100%;
+    width: 13cm;
+    color: white;
+    font-size: x-large;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+  }
+
+  .b2{
+    height: 100%;
+    width: 13cm;
+    color: white;
+    font-size: x-large;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .b3{
+    height: 100%;
+    width: 13cm;
+    color: white;
+    font-size: x-large;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .b4{
+    height: 100%;
+    width: 13cm;
+    color: white;
+    font-size: x-large;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+
+  
